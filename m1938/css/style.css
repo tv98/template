@@ -1,4 +1,4 @@
-﻿﻿﻿@charset "utf-8";
+﻿﻿@charset "utf-8";
 * {
 	margin:0;
 	padding:0
@@ -2206,6 +2206,90 @@ margin-bottom:.5rem
 }
 .cmt_msg .smt_wrap .cmt_post {
 	background: url("https://cdn.jsdelivr.net/gh/tv98/template@master/m1938/images/loading.png") no-repeat -1px -379px; border: currentColor; width: 81px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; font-size: 14px; margin-left: 20px; display: inline-block; cursor: pointer;vertical-align:middle;
+}
+.cmt_msg .smt_wrap .cmt_text {
+	background: rgb(251, 251, 251); padding: 0px 8px; border-radius: 3px; border: 1px solid rgb(204, 204, 204); width:50px; height: 30px; line-height: 30px; margin-left: 10px;vertical-align:middle;
+}
+.cmt_msg .smt_wrap .cmt_verify {
+	 width: 80px; height: 30px; line-height: 30px;vertical-align:middle;
+}
+
+.cmt_msg .smt_wrap input:hover {
+	background-position: -1px -603px;
+}
+.cmt_msg .sort_wrap {
+	padding-bottom: 2px; border-bottom-color: rgb(215, 215, 215); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmt_msg .sort_wrap a:hover {
+	text-decoration: none;
+}
+.cmt_msg .sort_wrap .current {
+	color: rgb(49, 139, 183); font-weight: bold; border-bottom-color: rgb(43, 140, 230); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.cmt_msg .cmt_item {
+	padding: 15px 0px; width: 100%; color: rgb(153, 153, 153); border-bottom-color: rgb(215, 215, 215); border-bottom-width: 1px; border-bottom-style: dotted; _zoom: 1;
+}
+.cmt_msg .item_con {
+	width: 90%; padding-left: 2%;
+}
+.cmt_msg .item_con p {
+	margin-bottom: 8px;
+}
+.cmt_msg .item_con a {
+	color: rgb(153, 153, 153);
+}
+.cmt_msg .item_con a:hover {
+	color: rgb(153, 153, 153); text-decoration: none;
+}
+.cmt_msg .item_con .name {
+	color: rgb(43, 140, 230);
+}
+.cmt_msg .item_con .name:hover {
+	color: rgb(1, 106, 159); text-decoration: none;
+}
+.cmt_msg .item_con .con {
+	color: rgb(51, 51, 51); line-height: 20px; overflow: hidden; margin-top: 8px; -ms-word-wrap: break-word;
+}
+.cmt_msg .item_con .bottom li {
+	height: 16px; line-height: 15px; overflow: hidden; margin-right: 10px; float: left; _display: inline;
+}
+.cmt_msg .item_con .bottom .reply {
+	background: url("https://cdn.jsdelivr.net/gh/tv98/template@master/m1938/images/loading.png") no-repeat 0px 0px; color: rgb(153, 153, 153); text-indent: 19px; font-size: 11px; display: block;
+}
+.cmt_msg .item_con .bottom .reply:hover {
+	color: rgb(1, 106, 159); text-decoration: none;
+}
+.cmt_msg .item_con .bottom .bdshare_t {
+	margin-top: -5px;
+}
+.cmt_msg .item_con .bottom .bds_more {
+	padding-top: 5px;
+}
+.cmt_msg .inner {
+	padding: 3px; border: 1px solid rgb(153, 153, 153); width: auto; background-color: rgb(254, 254, 241);
+}
+.cmt_msg .inner .top {
+	margin: 8px 0px 8px 3px;
+}
+.cmt_msg .inner .con {
+	margin: 5px 0px 5px 3px;
+}
+.cmt_msg .inner .bottom {
+	margin-bottom: 5px; visibility: hidden;
+}
+.cmt_msg .mid_cmt_item {
+	margin-top: 3px; border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+.cmt_msg .pages {
+	margin-top: 15px;
+}
+@media(max-width:767px){
+	#tab4{display:none;}
+	.pre-none{display:none;}
+	.h-260{
+		height: 260px!important;
+	}
+}4px; margin-left: 20px; display: inline-block; cursor: pointer;vertical-align:middle;
 }
 .cmt_msg .smt_wrap .cmt_text {
 	background: rgb(251, 251, 251); padding: 0px 8px; border-radius: 3px; border: 1px solid rgb(204, 204, 204); width:50px; height: 30px; line-height: 30px; margin-left: 10px;vertical-align:middle;
